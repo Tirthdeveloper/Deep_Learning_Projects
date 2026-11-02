@@ -21,21 +21,6 @@
 
 ---
 
-## 🎥 Video Walkthrough Section
-- **Video Title:** Practical Report 4 — CNN from Scratch Walkthrough
-- **File Name:** `DL_PR4A_YourName_GRID.mp4`
-- **Video Link:** [Click Here to Watch on Google Drive / YouTube](https://drive.google.com/file/d/your-video-link-here/view) *(Replace with your uploaded link)*
-- **Topics Covered Verbally in Video:**
-  1. *CNN vs ANN:* Preservation of spatial topology and parameter reduction via kernel weight sharing.
-  2. *Convolution & Padding:* Mathematical sliding inner product, VALID vs SAME padding formulas.
-  3. *Pooling Dynamics:* MaxPooling vs AveragePooling, and the MaxPooling gradient **Max-Location Switch** mask.
-  4. *LeNet-5 (1998):* Historical significance in digit recognition, structural comparison with modern CNNs, and manual parameter derivation.
-  5. *Data Augmentation:* Expansion of effective dataset size and mitigating overfitting on CIFAR-10.
-  6. *Transfer Learning:* Feature Extraction vs Fine-Tuning with MobileNetV2, and why a low learning rate ($\eta = 10^{-5}$) prevents catastrophic forgetting.
-  7. *Residual Connections:* ResNet skip connections as gradient highways solving the vanishing gradient problem.
-
----
-
 ## 📊 Dataset Overview: CIFAR-10
 CIFAR-10 (*Canadian Institute For Advanced Research*) is a standard computer vision benchmark comprising $60,000$ $32 \times 32$ color images across 10 mutually exclusive categories:
 
